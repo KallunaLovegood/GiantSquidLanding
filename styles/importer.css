@@ -1,0 +1,214 @@
+/*******
+* Reset
+********/
+html,
+body {
+  text-align: left;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+html,
+body,
+img,
+form,
+textarea,
+input,
+fieldset,
+div,
+p,
+div,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+button {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+img,
+region {
+  display: block;
+}
+a img {
+  border: none;
+}
+a {
+  text-decoration: none;
+  font-weight: normal;
+  font-family: inherit;
+}
+fieldset,
+hr {
+  border: none;
+}
+pre {
+  font-size: 1em;
+  font-family: sans-serif;
+}
+/* transparent resizer on textareas */
+textarea {
+  resize: none;
+}
+::-webkit-resizer {
+  background-color: transparent;
+}
+/* Clear mozilla/ie dotted line around active links */
+*:active,
+*:focus {
+  outline: none;
+  -moz-outline-style: none;
+}
+/* Fix heading font styles and size */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
+  font-weight: normal;
+  font-size: 1em;
+}
+.landing {
+  background-color: #171026;
+  min-height: 100%;
+  min-height: 800px;
+  width: 100%;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+.landing .content {
+  padding-top: 200px;
+  margin: 0 auto;
+  width: 500px;
+}
+.landing h1 {
+  font-size: 1.6em;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 0;
+  color: #ffffff;
+  opacity: .3;
+}
+.landing h2 {
+  font-size: 1.7em;
+  padding: 10px 0;
+  text-align: center;
+  color: #db137a;
+}
+.landing p {
+  font-size: .8em;
+  line-height: 1.8;
+  text-align: center;
+}
+.landing .logo {
+  margin: 0 auto;
+  width: 660px;
+  height: 256px;
+  padding-top: 100px;
+}
+.landing .socialMedia {
+  width: 370px;
+  height: 20px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.landing .socialMedia .facebook {
+  background-image: url('../images/social_facebook.png');
+  display: block;
+  float: left;
+  margin-left: 40px;
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 13px;
+  opacity: .5;
+}
+.landing .socialMedia .facebook:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.landing .socialMedia .twitter {
+  background-image: url('../images/social_twitter.png');
+  display: block;
+  float: left;
+  margin-left: 40px;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 31px;
+  opacity: .5;
+}
+.landing .socialMedia .twitter:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.landing .socialMedia .gplus {
+  background-image: url('../images/social_gplus.png');
+  display: block;
+  float: left;
+  margin-left: 40px;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 34px;
+  opacity: .5;
+}
+.landing .socialMedia .gplus:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.landing .socialMedia .dribbble {
+  background-image: url('../images/social_dribbble.png');
+  display: block;
+  float: left;
+  margin-left: 40px;
+  background-repeat: no-repeat;
+  height: 29px;
+  width: 29px;
+  opacity: .5;
+}
+.landing .socialMedia .dribbble:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
+.landing .socialMedia .linkedin {
+  background-image: url('../images/social_linkedin.png');
+  display: block;
+  float: left;
+  margin-left: 40px;
+  background-repeat: no-repeat;
+  height: 26px;
+  width: 28px;
+  opacity: .5;
+}
+.landing .socialMedia .linkedin:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+  cursor: pointer;
+}
