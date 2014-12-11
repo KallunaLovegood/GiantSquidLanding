@@ -37,17 +37,35 @@
 
   <body>
     <div class="homepage">
-<a name="topofpage"></a>
+    <a name="topofpage"></a>
     <!-- NAVIGATION -->
     <div id ="navigation" class="navigation">
         <div class="container">
             <a id="topofpage" href="#topofpage"><div class="logo"></div></a>
-            <ul>
-                <li><a id="useCases" href="#useCases">Use Cases</a></li>
-                <li><a id="services" href="#services">Services</a></li>
-                <li><a id="testimonials" href="#testimonials">Testimonials</a></li>
-                <li><a id="contact" href="#contact">Contact</a></li>
-            </ul>
+<!--             <div class="hamburger">
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div> -->
+            <div class="rightSide">
+                <ul class="nav-menu">
+                    <li><a id="useCases" href="#useCases">Use Cases</a></li>
+                    <li><a id="services" href="#services">Services</a></li>
+                    <li><a id="testimonials" href="#testimonials">Testimonials</a></li>
+                    <li><a id="contact" href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-padding">
+                    <div class="mobile-nav"></div>
+                </div>
+                <ul class="mobile-menu">
+                    <li><a id="useCases" href="#useCases">Use Cases</a></li>
+                    <li><a id="services" href="#services">Services</a></li>
+                    <li><a id="testimonials" href="#testimonials">Testimonials</a></li>
+                    <li><a id="contact" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div> <!-- container -->
     </div> <!-- navigation -->
 
@@ -55,20 +73,21 @@
     <!-- HERO IMAGE -->
     <div class="hero">
         <div class="squid">
+            <img class="mobile-squid" src="../images/img_heroMobile.png" border="0">
             <div class="container">
                 <div class="line"></div>
                 <div class="calltoaction">
                     <h1>We design </h1>
                     <h1 class="bold"> the crap </h1>
-                    <h1> out of your application</h1>
-                    <p class="subheader">We take a top-down user centric approach that separates our work from the little guys</p>
+                    <h1 class="bottom-line"> out of your application</h1>
+                    <p class="subheader">We take a top-down user centric approach that separates our work from the other guys</p>
                 </div>
                 <div class="line"></div>
                 <div class="button">
                     <a id="projectButton" href="#useCases">View Projects!</a>
                 </div>
             </div>
-        </div> <!-- container -->
+        </div> <!-- squid -->
     </div> <!-- hero -->
 
 
@@ -90,15 +109,16 @@
     <div class="projects">
         <div class="container">
             <div class="images">
-                <div class="left"></div>
-                <div class="right top"></div>
-                <div class="right bot"></div>
+                    <img class="left" src="../images/img_left.png" height="600px" width="600px">
+                    <!-- <div class="top"> -->
+                    <img class="right-top" src="../images/img_rightTop.png" height="297px" width="394px">
+<!--                     </div> -->
+                    <!-- <div class="bot"> -->
+                    <img class="right-bot" src="../images/img_rightBot.png" height="297px" width="394px">
+                    <!-- </div> -->
             </div>
         </div> <!-- container -->
         <p class="message">project detail pages coming soon!</p>
-        <!-- <div class="button">
-            <a href="">See all Projects</a>
-        </div> -->
     </div> <!-- projects -->
     <a name="services"></a>
 
@@ -154,7 +174,7 @@
             <h2>Shoot us a note!</h2>
             <p class="subheader">Whether you’ve got questions, just want to say hi, or are ready to get cranking on a project, we’re happy to help!</p>
             <div class="content">
-                <div class="texas"></div>
+                <img class="texas" src="../images/icon_texas.png" width="302px" height="284px">
                 <div class="links">
                     <p>Email Us:</p>
                     <p class="link">hello@giantsquidcreative.co</p>
