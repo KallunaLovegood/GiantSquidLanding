@@ -1,8 +1,8 @@
 $(document).ready(function(){
   // clicking hamburger button opens mobile menu
   $(".mobile-padding").click(function(){
-    $(".mobile-menu").toggleClass("show");
-    $(".mobile-padding").toggleClass("show");
+    $(".mobile-menu").addClass("show");
+    $(".mobile-padding").addClass("show");
   }),
 
   // clicking mobile menu children closes menu

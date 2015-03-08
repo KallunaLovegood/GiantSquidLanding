@@ -89,110 +89,115 @@ h7 {
 }
 .homepage .navigation {
   position: fixed;
-  z-index: 100;
   width: 100%;
+  z-index: 100;
 }
 .homepage .navigation .container {
+  margin: 0 auto;
   max-width: 1200px;
   width: 90%;
-  margin: 0 auto;
 }
 .homepage .navigation .container .logo {
   background-image: url('../images/logo.png');
-  width: 231px;
-  height: 89px;
   float: left;
+  height: 89px;
   margin: 10px 0;
+  width: 231px;
 }
 .homepage .navigation .container .nav-menu {
-  width: 405px;
   float: right;
   padding-top: 30px;
+  width: 405px;
 }
 .homepage .navigation .container .nav-menu li {
+  float: left;
   list-style: none;
   padding: 5px 10px;
-  float: left;
 }
 .homepage .navigation .container .nav-menu li a {
   color: #ffffff;
-  padding: 5px 10px;
   font-size: .8em;
   font-weight: 600;
+  padding: 5px 10px;
 }
 .homepage .navigation .container .nav-menu li a:hover {
-  opacity: .5;
   transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
+  opacity: .5;
 }
 .homepage .navigation .container .mobile-padding {
-  float: right;
-  padding: 20px;
-  margin-top: 20px;
-  display: none;
   transition: background-color 0.5s ease-in-out;
   -moz-transition: background-color 0.5s ease-in-out;
   -webkit-transition: background-color 0.5s ease-in-out;
+  display: none;
+  float: right;
+  margin-top: 20px;
+  padding: 20px;
   border-radius: 5px;
 }
+.homepage .navigation .container .mobile-padding.show {
+  background-color: #00959c;
+}
 .homepage .navigation .container .mobile-padding:hover {
-  cursor: pointer;
   transition: background-color 0.5s ease-in-out;
   -moz-transition: background-color 0.5s ease-in-out;
   -webkit-transition: background-color 0.5s ease-in-out;
   background-color: #00959c;
+  cursor: pointer;
 }
 .homepage .navigation .container .mobile-padding .mobile-nav {
   background-image: url('../images/img_hamburger.png');
+  float: right;
   height: 13px;
   width: 18px;
-  float: right;
 }
 .homepage .navigation .container .mobile-menu {
-  display: none;
-  width: 150px;
-  position: fixed;
-  right: 35px;
   background-color: #ffffff;
-  top: 70px;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 110px;
+  width: 150px;
+}
+.homepage .navigation .container .mobile-menu.show {
+  display: block !important;
+  width: 100%;
 }
 .homepage .navigation .container .mobile-menu li {
-  color: #181026;
-  font-size: .8em;
-  border-bottom: 1px solid #d5d5d5;
-  box-sizing: border-box;
   transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   -webkit-transition: background-color 0.3s ease-in-out;
+  border-bottom: 1px solid #d5d5d5;
+  box-sizing: border-box;
+  color: #181026;
+  font-size: .8em;
 }
 .homepage .navigation .container .mobile-menu li:last-child {
   border-bottom: none;
 }
 .homepage .navigation .container .mobile-menu li:hover {
-  background-color: #00959c;
   transition: background-color 0.3s ease-in-out;
   -moz-transition: background-color 0.3s ease-in-out;
   -webkit-transition: background-color 0.3s ease-in-out;
+  background-color: #00959c;
 }
 .homepage .navigation .container .mobile-menu li a {
   transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   -webkit-transition: color 0.3s ease-in-out;
-  color: #181026;
   box-sizing: border-box;
-  padding: 15px 0 15px 15px;
+  color: #181026;
   display: block;
+  padding: 15px 0 15px 15px;
 }
 .homepage .navigation .container .mobile-menu li a:hover {
-  color: #ffffff;
   transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   -webkit-transition: color 0.3s ease-in-out;
+  color: #ffffff;
 }
 .homepage .hero {
-  color: #ffffff;
-  text-align: center;
   background: #17354e;
   /* Old browsers */
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -211,26 +216,30 @@ h7 {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#17354e', endColorstr='#452448', GradientType=1);
   /* IE6-8 fallback on horizontal gradient */
+  color: #ffffff;
   padding: 100px 0;
+  text-align: center;
+  background-image: url('../images/img_hero.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 .homepage .hero .squid {
-  max-width: 100%;
-  background-image: url('../images/img_hero.png');
-  width: 962px;
   height: 507px;
   margin: 0 auto;
+  max-width: 100%;
+  width: 962px;
 }
 .homepage .hero .squid img.mobile-squid {
   display: none;
 }
 .homepage .hero .squid .container {
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 250px;
 }
 .homepage .hero .squid .container .line {
-  width: 500px;
-  margin: 0 auto;
   border-top: 1px solid #00959c;
+  margin: 0 auto;
+  width: 500px;
 }
 .homepage .hero .squid .container .calltoaction {
   padding: 29px 0 30px;
@@ -283,15 +292,15 @@ h7 {
   width: 362px;
 }
 .homepage .social .container .icon {
+  float: left;
   margin: 20px 25px;
   opacity: .5;
-  float: left;
 }
 .homepage .social .container .icon:hover {
-  opacity: 1;
   transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -webkit-transition: opacity 0.5s ease-in-out;
+  opacity: 1;
 }
 .homepage .social .container .facebook {
   background-image: url('../images/social_facebook.png');
@@ -324,10 +333,10 @@ h7 {
 }
 .homepage .projects .container {
   *zoom: 1;
-  position: static;
-  max-width: 1000px;
   margin: 0 auto;
+  max-width: 1000px;
   padding-top: 70px;
+  position: static;
 }
 .homepage .projects .container:before,
 .homepage .projects .container:after {
@@ -338,28 +347,27 @@ h7 {
 .homepage .projects .container:after {
   clear: both;
 }
-.homepage .projects .container .left {
+.homepage .projects .container .images .left {
   background-repeat: no-repeat;
   float: left;
 }
-.homepage .projects .container .right {
-  float: right;
-}
-.homepage .projects .container .right .right-top {
+.homepage .projects .container .images .right-top {
   background-repeat: no-repeat;
   float: left;
   margin-bottom: 6px;
+  margin-left: 6px;
 }
-.homepage .projects .container .right .right-bot {
+.homepage .projects .container .images .right-bot {
   background-repeat: no-repeat;
   float: left;
+  margin-left: 6px;
 }
 .homepage .projects .message {
-  text-align: center;
   color: #00959c;
-  padding-top: 50px;
   font-size: 2em;
   font-weight: 300;
+  padding-top: 50px;
+  text-align: center;
 }
 .homepage .projects .button {
   margin-top: 50px;
@@ -396,22 +404,22 @@ h7 {
   clear: both;
 }
 .homepage .services .container {
-  max-width: 1000px;
   margin: 0 auto;
+  max-width: 1000px;
 }
 .homepage .services .container h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.8em;
   font-weight: 300;
   color: #ffffff;
-  text-align: center;
   margin-bottom: 50px;
+  text-align: center;
 }
 .homepage .services .container .service {
   *zoom: 1;
-  width: 30%;
   float: left;
   padding-left: 5%;
+  width: 30%;
 }
 .homepage .services .container .service:before,
 .homepage .services .container .service:after {
@@ -445,16 +453,16 @@ h7 {
   height: 79px;
 }
 .homepage .services .container .service h3 {
-  text-align: center;
   font-size: 1.2em;
   font-weight: 300;
+  text-align: center;
 }
 .homepage .services .container .service p {
-  margin-top: 25px;
   font-size: .8em;
-  text-align: center;
   line-height: 1.7;
   margin-bottom: 130px;
+  margin-top: 25px;
+  text-align: center;
 }
 .homepage .testimonials {
   background: #009883;
@@ -477,10 +485,10 @@ h7 {
   /* IE6-8 fallback on horizontal gradient */
 }
 .homepage .testimonials .container {
-  max-width: 700px;
-  width: 80%;
   margin: 0 auto;
-  padding-top: 30px;
+  max-width: 700px;
+  padding-top: 70px;
+  width: 80%;
 }
 .homepage .testimonials .container .icon {
   background-image: url('../images/icon_quote.png');
@@ -489,7 +497,7 @@ h7 {
   margin: 0 auto;
 }
 .homepage .testimonials .container .testimonial {
-  padding: 30px 0 40px;
+  padding: 30px 0 70px;
 }
 .homepage .testimonials .container .testimonial .quote {
   font-family: 'Open Sans', sans-serif;
@@ -498,8 +506,8 @@ h7 {
   font-style: italic;
   color: #ffffff;
   line-height: 1.5;
-  text-align: center;
   padding-bottom: 25px;
+  text-align: center;
 }
 .homepage .testimonials .container .testimonial .photo {
   background-image: url('../images/photo_trapp.png');
@@ -509,16 +517,16 @@ h7 {
 }
 .homepage .testimonials .container .testimonial p {
   color: #ffffff;
-  text-align: center;
   font-size: .9em;
+  text-align: center;
 }
 .homepage .testimonials .container .testimonial p.name {
   font-weight: 600;
   padding-top: 15px;
 }
 .homepage .contact {
-  background-color: #ffffff;
   *zoom: 1;
+  background-color: #ffffff;
 }
 .homepage .contact:before,
 .homepage .contact:after {
@@ -548,10 +556,10 @@ h7 {
   font-weight: 300;
   font-style: italic;
   color: #00959c;
-  text-align: center;
-  padding-top: 10px;
-  width: 500px;
   margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+  width: 500px;
 }
 .homepage .contact .container .content {
   margin: 30px 0 70px;
@@ -569,59 +577,63 @@ h7 {
   line-height: 1.5;
 }
 .homepage .contact .container .content .links p.link {
-  font-size: 1.7em;
   color: #00959c;
+  font-size: 1.7em;
   padding-bottom: 30px;
 }
 .homepage .footer {
   color: #ffffff;
-  text-align: center;
   font-size: .8em;
+  text-align: center;
 }
 .homepage .footer .signature {
   padding-top: 30px;
 }
 .homepage .footer .signature p {
-  padding-top: 30px;
   display: inline;
   opacity: .8;
+  padding-top: 30px;
 }
 .homepage .footer .signature p.bold {
   font-weight: 600;
 }
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
   .homepage .navigation .nav-menu {
     display: none;
   }
   .homepage .navigation .mobile-padding {
     display: inline-block !important;
   }
+  .homepage .hero {
+    background-size: auto;
+    background-position: -300px 0px;
+  }
   .homepage .projects .container {
     width: 90%;
   }
   .homepage .projects .container .images img.left {
-    width: 60%;
-    height: auto;
     float: left;
+    height: auto;
+    width: 60%;
   }
   .homepage .projects .container .images img.right-top {
-    width: 39%;
-    height: auto;
     float: left;
-    margin-left: 6px;
+    height: auto;
     margin-bottom: 6px;
+    margin-left: 6px;
+    width: 39%;
   }
   .homepage .projects .container .images img.right-bot {
-    width: 39%;
-    height: auto;
     float: left;
+    height: auto;
     margin-left: 6px;
+    width: 39%;
   }
   .homepage .contact .container .content img.texas {
-    margin: 0 auto;
     float: none;
-    width: 40%;
     height: auto;
+    margin: 0 auto;
+    width: 40%;
   }
   .homepage .contact .container .content .links p {
     text-align: center;
@@ -630,22 +642,22 @@ h7 {
 @media (max-width: 480px) {
   .homepage .hero {
     padding-bottom: 0px;
-  }
-  .homepage .hero .squid {
-    background-image: none !important;
+    background-size: 300%;
+    background-position: -200px 0px;
+    height: 600px;
   }
   .homepage .hero .squid img.mobile-squid {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
+    display: none;
     height: 348px;
-    width: 462px;
+    margin: 0 auto;
     margin-top: 20px;
+    max-width: 100%;
     position: relative;
+    width: 462px;
   }
   .homepage .hero .squid div.container {
+    margin-top: 100px;
     padding-top: 40px;
-    margin-top: -300px;
     position: relative;
   }
   .homepage .hero .squid div.container .line {
@@ -656,8 +668,8 @@ h7 {
   }
   .homepage .hero .squid div.container .calltoaction p.subheader {
     line-height: 1.5;
-    width: 80%;
     margin: 0 auto;
+    width: 80%;
   }
   .homepage .projects {
     display: none;
@@ -668,8 +680,8 @@ h7 {
   .homepage .services .container .service.ux,
   .homepage .services .container .service.design,
   .homepage .services .container .service.tech {
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
   .homepage .services .container .service.ux p,
   .homepage .services .container .service.design p,
