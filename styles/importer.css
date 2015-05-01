@@ -103,6 +103,8 @@ h7 {
   height: 112px;
   margin: 10px 0;
   width: 234px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .homepage .navigation .container .nav-menu {
   float: right;
