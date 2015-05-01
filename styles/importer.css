@@ -447,19 +447,25 @@ h7 {
   margin-bottom: 25px;
 }
 .homepage .services .container .service .icon.ux {
-  background-image: url('../images/icon_ux.png');
+  background-image: url('../images/icon_ux@2x.png');
   width: 80px;
   height: 79px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .homepage .services .container .service .icon.design {
-  background-image: url('../images/icon_design.png');
+  background-image: url('../images/icon_design@2x.png');
   width: 79px;
   height: 79px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .homepage .services .container .service .icon.tech {
-  background-image: url('../images/icon_tech.png');
+  background-image: url('../images/icon_tech@2x.png');
   width: 80px;
   height: 79px;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 .homepage .services .container .service h3 {
   font-size: 1.2em;
