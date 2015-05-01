@@ -647,10 +647,10 @@ h7 {
   }
 }
 @media (max-width: 480px) {
-  .homepage .navigation .container .logo {
+/*  .homepage .navigation .container .logo {
     float: none;
     margin: 0 auto;
-  }
+  }*/
   .homepage .hero {
     padding-bottom: 0px;
     background-size: 300%;
