@@ -107,7 +107,7 @@ h7 {
 .homepage .navigation .container .nav-menu {
   float: right;
   padding-top: 30px;
-  width: 405px;
+  width: 475px;
 }
 .homepage .navigation .container .nav-menu li {
   float: left;
@@ -234,7 +234,7 @@ h7 {
 }
 .homepage .hero .squid .container {
   margin: 0 auto;
-  padding-top: 250px;
+  padding-top: 150px;
 }
 .homepage .hero .squid .container .line {
   border-top: 1px solid #00959c;
@@ -250,6 +250,11 @@ h7 {
   font-weight: 300;
   display: inline-block;
   color: #ffffff;
+}
+.homepage .hero .squid .container .calltoaction h2 {
+  color: #00959C;
+  font-weight: bold;
+  font-size: 1.5em;
 }
 .homepage .hero .squid .container .calltoaction h1.bold {
   font-weight: bold;
