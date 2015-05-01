@@ -254,7 +254,9 @@ h7 {
 .homepage .hero .squid .container .calltoaction h2 {
   color: #00959C;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.0em;
+  line-height: 2;
+  text-transform: uppercase;
 }
 .homepage .hero .squid .container .calltoaction h1.bold {
   font-weight: bold;
