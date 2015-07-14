@@ -149,7 +149,7 @@ h7 {
   cursor: pointer;
 }
 .homepage .navigation .container .mobile-padding .mobile-nav {
-  background-image: url('./images/img_hamburger.png');
+  background-image: url('../images/img_hamburger.png');
   float: right;
   height: 13px;
   width: 18px;
