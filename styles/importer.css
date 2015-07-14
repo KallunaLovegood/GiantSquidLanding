@@ -312,27 +312,27 @@ h7 {
   opacity: 1;
 }
 .homepage .social .container .facebook {
-  background-image: url('./images/social_facebook.png');
+  background-image: url('../images/social_facebook.png');
   width: 11px;
   height: 24px;
 }
 .homepage .social .container .twitter {
-  background-image: url('./images/social_twitter.png');
+  background-image: url('../images/social_twitter.png');
   width: 29px;
   height: 24px;
 }
 .homepage .social .container .plus {
-  background-image: url('./images/social_plus.png');
+  background-image: url('../images/social_plus.png');
   width: 25px;
   height: 24px;
 }
 .homepage .social .container .dribbble {
-  background-image: url('./images/social_dribbble.png');
+  background-image: url('../images/social_dribbble.png');
   width: 23px;
   height: 23px;
 }
 .homepage .social .container .linkedin {
-  background-image: url('./images/social_linkedin.png');
+  background-image: url('../images/social_linkedin.png');
   width: 24px;
   height: 21px;
 }
@@ -447,21 +447,21 @@ h7 {
   margin-bottom: 25px;
 }
 .homepage .services .container .service .icon.ux {
-  background-image: url('./images/icon_ux@2x.png');
+  background-image: url('../images/icon_ux@2x.png');
   width: 80px;
   height: 79px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .homepage .services .container .service .icon.design {
-  background-image: url('./images/icon_design@2x.png');
+  background-image: url('../images/icon_design@2x.png');
   width: 79px;
   height: 79px;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 .homepage .services .container .service .icon.tech {
-  background-image: url('./images/icon_tech@2x.png');
+  background-image: url('../images/icon_tech@2x.png');
   width: 80px;
   height: 79px;
   background-repeat: no-repeat;
@@ -506,7 +506,7 @@ h7 {
   width: 80%;
 }
 .homepage .testimonials .container .icon {
-  background-image: url('./images/icon_quote.png');
+  background-image: url('../images/icon_quote.png');
   width: 41px;
   height: 40px;
   margin: 0 auto;
@@ -525,7 +525,7 @@ h7 {
   text-align: center;
 }
 .homepage .testimonials .container .testimonial .photo {
-  background-image: url('./images/photo_trapp.png');
+  background-image: url('../images/photo_trapp.png');
   width: 92px;
   height: 92px;
   margin: 0 auto;
