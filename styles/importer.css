@@ -98,7 +98,7 @@ h7 {
   width: 90%;
 }
 .homepage .navigation .container .logo {
-  background-image: url('./images/logo@2x.png');
+  background-image: url('../images/logo@2x.png');
   float: left;
   height: 112px;
   margin: 10px 0;
