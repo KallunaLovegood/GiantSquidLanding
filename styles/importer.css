@@ -221,7 +221,7 @@ h7 {
   color: #ffffff;
   padding: 100px 0;
   text-align: center;
-  background-image: url('../images/img_hero.png');
+  /*background-image: url('../images/img_hero.png');*/
   background-size: 100%;
   background-repeat: no-repeat;
 }
