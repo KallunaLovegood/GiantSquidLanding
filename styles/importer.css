@@ -226,7 +226,7 @@ h7 {
   background-repeat: no-repeat;
 }
 .homepage .hero .squid {
-  max-height: 507px;
+  height: 507px;
   margin: 0 auto;
   max-width: 100%;
   width: 962px;
@@ -612,6 +612,14 @@ h7 {
 .homepage .footer .signature p.bold {
   font-weight: 600;
 }
+@media (max-width: 1200px) {
+  .homepage .hero {
+    background-size: 130%;
+  }
+  .homepage .hero .squid .container {
+      padding-top: 10%;
+    }
+  }
 @media (max-width: 800px) {
   .homepage .navigation .nav-menu {
     display: none;
