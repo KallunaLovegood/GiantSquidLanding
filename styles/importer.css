@@ -612,6 +612,11 @@ h7 {
 .homepage .footer .signature p.bold {
   font-weight: 600;
 }
+@media (max-width: 1200px) {
+  .homepage .hero {
+    background-size: 130%;
+    /*background-position: -300px 0px;*/
+  }
 @media (max-width: 800px) {
   .homepage .navigation .nav-menu {
     display: none;
