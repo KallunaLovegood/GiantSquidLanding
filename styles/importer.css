@@ -226,7 +226,7 @@ h7 {
   background-repeat: no-repeat;
 }
 .homepage .hero .squid {
-  height: 507px;
+  max-height: 507px;
   margin: 0 auto;
   max-width: 100%;
   width: 962px;
@@ -612,11 +612,6 @@ h7 {
 .homepage .footer .signature p.bold {
   font-weight: 600;
 }
-/*@media (max-width: 1200px) {
-  .homepage .hero {
-    background-size: 130%;
-    /*background-position: -300px 0px;
-  }*/
 @media (max-width: 800px) {
   .homepage .navigation .nav-menu {
     display: none;
@@ -629,7 +624,7 @@ h7 {
     background-position: -300px 0px;
   }
   .homepage .hero .squid {
-    height: auto;
+    height: auto !important;
   }
   .homepage .projects .container {
     width: 90%;
@@ -663,10 +658,6 @@ h7 {
   }
 }
 @media (max-width: 480px) {
-/*  .homepage .navigation .container .logo {
-    float: none;
-    margin: 0 auto;
-  }*/
   .homepage .hero {
     padding-bottom: 0px;
     background-size: 300%;
