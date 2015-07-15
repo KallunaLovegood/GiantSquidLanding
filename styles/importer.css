@@ -614,12 +614,13 @@ h7 {
 }
 @media (max-width: 1200px) {
   .homepage .hero {
-    background-size: 130%;
+    background-size: 170%;
+    background-position: -200px 0;
   }
   .homepage .hero .squid .container {
-      padding-top: 10%;
-    }
+    padding-top: 10%;
   }
+}
 @media (max-width: 800px) {
   .homepage .navigation .nav-menu {
     display: none;
